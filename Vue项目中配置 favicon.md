@@ -1,4 +1,4 @@
-`⚠️ 注意：` 用做网站图标的图片文件必须是`ico`类型，文件名最好统一命名favicon.ico
+`⚠️ 注意：` 用做网站图标的图片文件必须是`ico`类型，文件名最好统一命名 `favicon.ico`
 
 - ico 图标在线制作：[http://www.faviconico.org](http://www.faviconico.org)
 
