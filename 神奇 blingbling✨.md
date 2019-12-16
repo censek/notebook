@@ -4,6 +4,7 @@
 <a href="mailto:bettyxxxxxx@163.com">一键发送邮件</a>
 <a href="sms:188xxxxxxx">一键发送短信</a>
 ```
+<br>
 
 🥑 2. **[css]** 消除 transition 闪屏
 ```css
@@ -14,3 +15,8 @@
 } 
 ```
 > transition 闪屏发生的情况：在 IOS 的 Safari 浏览器下，使用 transition 来进行动画变换时出现。
+
+<br>
+
+🥑 3. **[css]** webp 图片格式
+[探究WebP一些事儿](https://aotu.io/notes/2016/06/23/explore-something-of-webp/)
