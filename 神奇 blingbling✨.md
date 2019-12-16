@@ -18,5 +18,5 @@
 
 <br>
 
-🥑 3. **[css]** webp 图片格式
-[探究WebP一些事儿](https://aotu.io/notes/2016/06/23/explore-something-of-webp/)
+🥑 3. **[css]** webp 图片格式 <Br>
+- [探究 WebP 一些事儿](https://aotu.io/notes/2016/06/23/explore-something-of-webp/)
