@@ -29,3 +29,6 @@ cwebp [-preset <...>] [options] in_file [-o out_file]
 # (3) 也可以使用 dwebp 将 WebP 图片转换回 PNG 图片（默认）。
 dwebp in_file [options] [-o out_file]
 ```
+> options 参数列表中包含质量参数 `q`，q 为 `0～100` 之间的数字，比较典型的质量值大约为 80。
+
+<img src="https://img-blog.csdnimg.cn/20191216143334376.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0J1bGVfZGF6ZQ==,size_16,color_FFFFFF,t_70" width="400px">
