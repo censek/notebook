@@ -20,3 +20,12 @@
 
 🥑 3. **[css]** webp 图片格式 <Br>
 - [探究 WebP 一些事儿](https://aotu.io/notes/2016/06/23/explore-something-of-webp/)
+    
+```shell
+#（1）使用 homebrew 安装 webp 工具
+brew install webp
+# (2) 安装完命令行工具后，就可以使用 cwebp 将 JPG 或 PNG 图片转换成 WebP 格式。
+cwebp [-preset <...>] [options] in_file [-o out_file]
+# (3) 也可以使用 dwebp 将 WebP 图片转换回 PNG 图片（默认）。
+dwebp in_file [options] [-o out_file]
+```
