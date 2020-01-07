@@ -51,7 +51,7 @@ docker pull mongo      #拉取官方mongo镜像（一般为第一个）
  > - --restart="no" 容器停止后的重启策略  no：不重启；on-failure：容器故障退出（返回值非零）时重启；always：容器退出时总是重启 。
  > <br>
  > 
- > 🔗[docker run, –name, –hostname 和 –rm 详解](http://www.dockerinfo.net/3689.html)
+ > 🔗 [docker run, –name, –hostname 和 –rm 详解](http://www.dockerinfo.net/3689.html)
 
 <br>
 
@@ -95,6 +95,6 @@ docker cp eportalplus 08fcce825138:/
 docker exec -it 08fcce825138 /bin/bash
 mongorestore -d eportal eportalplus
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200106152811355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0J1bGVfZGF6ZQ==,size_16,color_FFFFFF,t_70)
+![导入命令截图](https://img-blog.csdnimg.cn/20200106152811355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0J1bGVfZGF6ZQ==,size_16,color_FFFFFF,t_70)
 > 注： 可以看到左上角 `root@mqj` ，mqj 就是我在步骤 **2.运行容器** 中通过 -h 指定的容器的主机名<br><br>
 > - （其它比如只导入某个集合的数据的命令见上方 1⃣️ 中链接。）
