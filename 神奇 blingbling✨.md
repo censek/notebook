@@ -34,3 +34,9 @@ dwebp in_file [options] [-o out_file]
 🌰：`cwebp -q 80 111.jpeg -o 222.webp`
 
 <img src="https://img-blog.csdnimg.cn/20191216143334376.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0J1bGVfZGF6ZQ==,size_16,color_FFFFFF,t_70" width="500px">
+<br>
+
+🥑 4. **[css]** web 安全色 <br>
+- [https://www.bootcss.com/p/websafecolors/](https://www.bootcss.com/p/websafecolors/)
+    在不同的平台展示的效果和预期一致。<br>
+    WEB 安全色的 `RGB` 值均为 `51` 的倍数。`rgb(0,0,51)`, `rgb(0,0,102)`, `rgb(0,0,153)` 都是 web 安全色。
