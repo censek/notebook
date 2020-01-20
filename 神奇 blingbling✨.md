@@ -37,6 +37,6 @@ dwebp in_file [options] [-o out_file]
 <br>
 
 🥑 4. **[css]** web 安全色 <br>
-- [https://www.bootcss.com/p/websafecolors/](https://www.bootcss.com/p/websafecolors/)
+- [https://www.bootcss.com/p/websafecolors/](https://www.bootcss.com/p/websafecolors/)<br>
     在不同的平台展示的效果和预期一致。<br>
     WEB 安全色的 `RGB` 值均为 `51` 的倍数。`rgb(0,0,51)`, `rgb(0,0,102)`, `rgb(0,0,153)` 都是 web 安全色。
