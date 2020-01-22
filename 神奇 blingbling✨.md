@@ -34,6 +34,7 @@ dwebp in_file [options] [-o out_file]
 🌰：`cwebp -q 80 111.jpeg -o 222.webp`
 
 <img src="https://img-blog.csdnimg.cn/20191216143334376.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0J1bGVfZGF6ZQ==,size_16,color_FFFFFF,t_70" width="500px">
+
 <br>
 
 🥑 4. **[css]** web 安全色 <br>
@@ -44,7 +45,7 @@ dwebp in_file [options] [-o out_file]
 
 🥑 5. **[html]** 分区响应图 <Br>
     分区响应图，就是当超链接按钮是图片时，将图片进行划分，使得点击图片不同区域时，会有不同的反馈。<br>
-    🌰：
+    🌰：<br>
     ```html
       <img src="./1.png" usemap="#myMap" />
       <map name="myMap">
