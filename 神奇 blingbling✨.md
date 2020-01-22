@@ -43,7 +43,7 @@ dwebp in_file [options] [-o out_file]
     WEB 安全色的 `RGB` 值均为 `51` 的倍数。`rgb(0,0,51)`, `rgb(0,0,102)`, `rgb(0,0,153)` 都是 web 安全色。
 <br>
 
-🥑 5. **[html]** 分区响应图 <Br>
+♨️ 5. **[html]** 分区响应图 <Br>
     
    [分区响应图](https://www.jianshu.com/p/f877cbe7cfd9)，就是当超链接按钮是图片时，将图片进行划分，使得点击图片不同区域时，会有不同的反馈。<br>
     🌰：
