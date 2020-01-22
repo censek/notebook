@@ -40,3 +40,16 @@ dwebp in_file [options] [-o out_file]
 - [https://www.bootcss.com/p/websafecolors/](https://www.bootcss.com/p/websafecolors/)<br>
     在不同的平台展示的效果和预期一致。<br>
     WEB 安全色的 `RGB` 值均为 `51` 的倍数。`rgb(0,0,51)`, `rgb(0,0,102)`, `rgb(0,0,153)` 都是 web 安全色。
+<br>
+
+🥑 5. **[html]** 分区响应图 <Br>
+    分区响应图，就是当超链接按钮是图片时，将图片进行划分，使得点击图片不同区域时，会有不同的反馈。<br>
+    🌰：
+    ```html
+      <img src="./1.png" usemap="#myMap" />
+      <map name="myMap">
+        <area href="http://baidu.com" shape="rect" coords="50,106,220,273" />
+        <area href="http://google.com" shape="rect" coords="260,106,430,275" />
+        <area href="http://juejin.im" shape="default" />
+      </map>
+    ```
