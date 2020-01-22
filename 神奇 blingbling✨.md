@@ -45,7 +45,8 @@ dwebp in_file [options] [-o out_file]
 
 🥑 5. **[html]** 分区响应图 <Br>
     分区响应图，就是当超链接按钮是图片时，将图片进行划分，使得点击图片不同区域时，会有不同的反馈。<br>
-    🌰：<br>
+    🌰：
+    
     ```html
       <img src="./1.png" usemap="#myMap" />
       <map name="myMap">
