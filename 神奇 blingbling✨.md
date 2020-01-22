@@ -47,11 +47,11 @@ dwebp in_file [options] [-o out_file]
     分区响应图，就是当超链接按钮是图片时，将图片进行划分，使得点击图片不同区域时，会有不同的反馈。<br>
     🌰：
     
-    ```html
+   ```html
       <img src="./1.png" usemap="#myMap" />
       <map name="myMap">
         <area href="http://baidu.com" shape="rect" coords="50,106,220,273" />
         <area href="http://google.com" shape="rect" coords="260,106,430,275" />
         <area href="http://juejin.im" shape="default" />
       </map>
-    ```
+   ```
