@@ -56,3 +56,14 @@ dwebp in_file [options] [-o out_file]
         <area href="http://juejin.im" shape="default" />
       </map>
    ```
+<br>
+   
+♨️ 6. **[html]** 富文本编辑器 <Br>
+- `[document.execCommand](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/execCommand)`
+   ```javascript
+   document.execCommand(aCommandName, aShowDefaultUI, aValueArgument)
+
+   // 比如：
+
+   document.execCommand('bold',false');  //切换选中区域的粗体样式
+   ```
