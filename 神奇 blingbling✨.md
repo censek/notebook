@@ -72,15 +72,20 @@ dwebp in_file [options] [-o out_file]
 🥑 7. **[css]** 背景裁剪 <Br>
 - [`background-clip`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-clip)
     + 实现渐变色文字（也可将渐变色替换成图片）
-    ```html
-    <p class="text">The background is clipped to the foreground text.</p>
-    ```
-    ```css
-      .text {
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: rgba(0, 0, 0, .2);
-      }
-    ```
+        ```html
+        <p class="text">The background is clipped to the foreground text.</p>
+        ```
+        ```css
+        p {
+            background: linear-gradient(60deg, red, yellow, red, yellow, red);
+        }
+        .text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: rgba(0, 0, 0, .2);
+        }
+        ```
+  <br>
     
+  
    
