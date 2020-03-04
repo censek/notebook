@@ -67,3 +67,20 @@ dwebp in_file [options] [-o out_file]
    // 比如：
    document.execCommand('bold',false');  //切换选中区域的粗体样式
    ```
+<br>
+
+🥑 7. **[css]** 背景裁剪 <Br>
+- [`background-clip`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-clip)
+    + 实现渐变色文字（也可将渐变色替换成图片）
+    ```html
+    <p class="text">The background is clipped to the foreground text.</p>
+    ```
+    ```css
+      .text {
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: rgba(0, 0, 0, .2);
+      }
+    ```
+    
+   
