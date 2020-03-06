@@ -18,7 +18,7 @@
 
 <br>
 
-🥑 3. **[css]** webp 图片格式 <Br>
+🥑 3. **[css]** webp 图片格式 <br>
 - [探究 WebP 一些事儿](https://aotu.io/notes/2016/06/23/explore-something-of-webp/)
     
 ```shell
@@ -43,7 +43,7 @@ dwebp in_file [options] [-o out_file]
     WEB 安全色的 `RGB` 值均为 `51` 的倍数。`rgb(0,0,51)`, `rgb(0,0,102)`, `rgb(0,0,153)` 都是 web 安全色。
 <br>
 
-♨️ 5. **[html]** 分区响应图 <Br>
+♨️ 5. **[html]** 分区响应图 <br>
     
    [分区响应图](https://www.jianshu.com/p/f877cbe7cfd9)，就是当超链接按钮是图片时，将图片进行划分，使得点击图片不同区域时，会有不同的反馈。<br>
     🌰：
@@ -58,7 +58,7 @@ dwebp in_file [options] [-o out_file]
    ```
 <br>
    
-♨️ 6. **[html]** 富文本编辑器 <Br>
+♨️ 6. **[html]** 富文本编辑器 <br>
 - [`document.execCommand`](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/execCommand)
     
    ```javascript
@@ -69,7 +69,7 @@ dwebp in_file [options] [-o out_file]
    ```
 <br>
 
-🥑 7. **[css]** 背景裁剪 <Br>
+🥑 7. **[css]** 背景裁剪 <br>
 - [`background-clip`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-clip)
     + 实现渐变色文字（也可将渐变色替换成图片）
         ```html
@@ -87,7 +87,7 @@ dwebp in_file [options] [-o out_file]
         ```
   <br>
 
-🥑 8. **[css]** 页面顶部阴影效果 <Br>
+🥑 8. **[css]** 页面顶部阴影效果 <br>
     
 ```css
 body:before {
@@ -105,7 +105,16 @@ body:before {
     z-index: 100;
 }
  ```
-  <br>  
+<br>  
     
-
-   
+🥑 9. **[css]** 文本模糊效果 <br>
+    
+```css
+.blurry {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+ ```  
+ <br>
+ 
+ 
