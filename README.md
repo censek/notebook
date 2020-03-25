@@ -10,3 +10,4 @@
 
 ### 一些链接
 - 轮播图 Image Slider Maker [https://imageslidermaker.com/v2](https://imageslidermaker.com/v2)
+- HTML 支持的特殊符号 [https://www.runoob.com/tags/html-symbols.html](https://www.runoob.com/tags/html-symbols.html)
