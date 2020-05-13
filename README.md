@@ -13,6 +13,4 @@
 
 <br><hr>
 
-### 一些链接
-- 轮播图 Image Slider Maker [https://imageslidermaker.com/v2](https://imageslidermaker.com/v2)
-- HTML 支持的特殊符号 [https://www.runoob.com/tags/html-symbols.html](https://www.runoob.com/tags/html-symbols.html)
+### [一些链接](https://github.com/censek/notebook/blob/master/%E9%93%BE%E6%8E%A5%E5%88%86%E4%BA%AB.md) ⤻
