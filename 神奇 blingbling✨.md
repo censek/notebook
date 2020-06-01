@@ -124,6 +124,16 @@ body:before {
     
 <br>
 
+🥑 10. **[css]** 两端对齐布局效果 <br>
+    `columns`   
+    
+```css
+.container {
+  columns: 3;
+  column-gap: 30px; /* 也可以是gap: 30px */
+}
+```
+<br>
 
 
  
